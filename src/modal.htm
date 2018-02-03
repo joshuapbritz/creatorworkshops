@@ -1,0 +1,30 @@
+<!-- Modal -->
+<div id="SubModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+
+                <form method="post" data-d="frmDone" action="http://api.tackter.io/api/UserForms" id="tactusFrm" onsubmit="return postSubForm(this,event)">
+                    <input type="hidden" name="Token" value="21d51a19-2d8f-4a47-8b78-e9b8df69a4c8">
+                    <input type="hidden" name="Subject" value="New Subscription For Creator.Com">
+
+                    <input type="hidden" id="client-u-id" name="ClientID" value="ID">
+                    <p>Email:</p><input placeholder="Email" id="email-sub" type="text" name="Email" required="required"><button type="submit" onclick="SubPlay()" id="subbtn">Submit</button>
+                    <span class="span" style="color:transparent;font-size:0px"><a href="http://tackter.io"> Powered by Tackter.io</a></span>
+                    
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found</title>
+
+  <style media="screen">
+    * {
+      box-sizing: border-box;
+      outline: none;
+      font-family: Arial, Helvetica, sans-serif;  
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      position: fixed;
+      top: 30px;
+      left: 30px;
+      width: 300px;
+      height: auto;
+      background-color: #ffffff;
+    }
+
+    .logo img {
+      width: 100%;
+      height: auto;
+    }
+
+    .wrapper {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .text-center {
+      text-align: center !important;
+    }
+
+    .wrapper h1 {
+      color: #3f63e8;
+      font-size: 90px;
+      margin: 3px 0;
+      font-weight: lighter;
+    }
+
+    .wrapper h3 {
+      color: #777;
+      font-weight: lighter;
+      margin: 2px 0;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 5px 80px;
+      border: solid 2px #3f63e8;
+      margin: 10px 0 0 0;
+      border-radius: 20px;
+      color: #3f63e8;
+      text-decoration: none;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1) 150ms;
+    }
+
+    .btn:hover {
+      background-color: rgba(63, 99, 232, 0.616);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="img/logo.png" class="img-responsive">
+  </div>
+  <div class="wrapper">
+    <div class="content text-center">
+      <img src="img/404er.png" class="img-responsive">
+      <h1>404</h1>
+      <h3>Page Not Found</h3>
+      <a class="btn btn-default return-btn" href="../index.html">Return Home</a>
+    </div>
+  </div>
+</body>
+
+</html>
