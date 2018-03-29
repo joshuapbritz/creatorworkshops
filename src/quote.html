@@ -72,74 +72,15 @@
     <!--Navigation Bar End-->
 
     <div class="container">
-        <h2>Get a quote</h2>
-        <hr>
-        <p>Quickly get a quote to see how much lessons at Creator Workshops will cost you</p>
+        <h2>Creator Workshops Pricing</h2>
     </div>
     <br>
     <div class="container text-center">
         <div id="pCont" class="teahcer-body">
             <h1><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></h1>
         </div>
-        <button class="qbtn" onclick="getQuote()">Get a Quote</button>
     </div>
-    <br>
-    <div class="container">
-        <div id="get-quote" style="display: none;">
-            <h1>Please Select a Workshop Type</h1>
-            <div id="drop-list"></div>
-
-            <div id="kidssect" style="display: none;">
-                <h1>How Many Students Will Attend (Roughly)</h1>
-                <input type="number" id="kidnum" min="1" value="1"><button id="nxtbtn">Next</button>
-            </div>
-
-            <div id="rQuote" class="review-quote text-center" style="display: none;">
-                <table id="rTable" class="pricing-table">
-                    <tr>
-                        <td>Course Type</td>
-                        <td>Price Per Student</td>
-                        <td>Total Price</td>
-                    </tr>
-                    <tr>
-                        <td id="cType">Course_Type</td>
-                        <td id="pPStudent">Price_Per_Student</td>
-                        <td id="tPrice">Total_Price</td>
-                    </tr>
-                </table>
-
-                <form method="post" data-d="frmDone" action="http://api.tackter.io/api/UserForms" id="tactusFrm" onsubmit="return postQuoteForm(this,event)"
-                    class="q-form">
-                    <input name="Token" value="cb543080-45c1-4ebb-84de-db0effd22068" type="hidden">
-                    <!--<input name="Token" value="21d51a19-2d8f-4a47-8b78-e9b8df69a4c8" type="hidden">-->
-                    <input name="Subject" value="New Quote From Creator Workshops" type="hidden">
-
-
-                    <input name="Course Type" id="q-ctype" type="hidden"><br>
-                    <input name="Price Per Student" id="q-ppstudent" type="hidden"><br>
-                    <input name="Total Price" id="q-tprice" type="hidden"><br>
-                    <input name="Job Id" id="q-jobid" type="hidden"><br>
-                    <input name="Client Id" id="q-clientid" type="hidden"><br>
-
-                    <input name="Email" required="required" placeholder="Your Email" type="email">
-                    <input name="Name" required="required" placeholder="Your Name" type="text">
-                    <input name="School" required="required" placeholder="What school are you from?" type="text">
-
-                    <span class="span" style="color:transparent;font-size:0px"><a href="http://tackter.io"> Powered by Tackter.io</a></span>
-                    <button type="submit" id="q-btn" class="qbtn">Download this Information</button>
-                </form>
-
-                <br>
-
-            </div>
-
-        </div>
-        <div id="SubMessage" style="display: none;">
-            <h1>Thank You</h1>
-            <h2>We will send you a follow up email soon</h2>
-        </div>
-    </div>
-    <br><br>
+    
     <!--Slider Start-->
     <div class="slider-container text-center" id="slideContainer" data-speed="6" transform-text="upper">
         <div class="slider-item-1 slide" id="slide-one">
