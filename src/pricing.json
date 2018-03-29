@@ -1,5 +1,5 @@
     {
-        "item": ["Weekly", "Weekly Robotics", "Holiday"],
+        "item": ["Featherbrooke", "Honeydew", "Holiday"],
         "price": [1350, 1000 , 750],
         "paytype": ["Term", "Term", "Week"]
     }
