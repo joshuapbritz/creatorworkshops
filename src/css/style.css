@@ -310,11 +310,45 @@ body{
 
     color: #666;
 
+    font-size: 20px;
+
     border-bottom: solid 1px #203654;
 
 }
 
 /*End What We Teach*/
+
+/*Start Specials*/
+
+.specials-body{
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 30px;
+
+    font-size: 20px;
+
+    color: #666;
+
+    border-bottom: solid 1px #203654;
+
+}
+
+.specials-logo h1{
+
+    color: #203654;
+
+    font-size: 70px;
+
+    text-align: left;
+
+    padding: 30px;
+
+}
+
+/*End Specials*/
 
 /*Start feedback*/
 
