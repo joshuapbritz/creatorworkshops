@@ -1,5 +1,5 @@
     {
-        "item": ["Featherbrooke", "Honeydew", "Holiday"],
-        "price": [1350, 950, 750],
-        "paytype": ["Term", "Term", "Week"]
+        "item": ["Featherbrooke", "Sundowner", "Horison"],
+        "price": [1000, 1000, 1000],
+        "paytype": ["Term", "Term", "Term"]
     }

@@ -721,6 +721,8 @@ body{
 
     background-color: #fff;
 
+    font-size: 20px;
+
 
 
     -webkit-transition: ease-in-out 0.2s;
@@ -1231,6 +1233,8 @@ body{
 
     clear: both;
 
+    font-size: 20px;
+
 }
 
 
@@ -1657,7 +1661,7 @@ body{
 
     height: auto;
 
-    width: 44%;
+    width: 25%;
 
     margin: 3%;
 
@@ -1671,7 +1675,15 @@ body{
 
     #loc-one{
 
-        width: 94%;
+    float: left;
+
+    height: auto;
+
+    width: 30%;
+
+    margin: 3%;
+
+    border: solid 3px #203654;
 
     }
 
@@ -1685,7 +1697,7 @@ body{
 
     height: auto;
 
-    width: 44%;
+    width: 25%;
 
     margin: 3%;
 
@@ -1693,6 +1705,19 @@ body{
 
 }
 
+#loc-three{
+
+    float: left;
+
+    height: auto;
+
+    width: 25%;
+
+    margin: 3%;
+
+    border: solid 3px #203654;
+
+}
 
 
 @media screen and (max-width: 1000px){
@@ -1706,6 +1731,9 @@ body{
 }
 
 
+#weekly-body{
+    font-size: 200px;
+}
 
 #LOCATION-INFO{
 
@@ -1718,3 +1746,4 @@ body{
     padding: 5%;
 
 }
+
