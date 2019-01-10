@@ -467,7 +467,7 @@ body{
 
 .hero-desc{
 
-    width:50%;
+    width:75%;
 
     height: auto;
 
@@ -475,6 +475,7 @@ body{
 
     display: none;
 
+    font-size: 25px;
 }
 
 
