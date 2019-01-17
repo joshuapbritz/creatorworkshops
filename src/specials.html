@@ -68,6 +68,7 @@
         <li><a href="material.html" class="nav-list-item">What We Teach</a></li>
         <li><a href="quote.html" class="nav-list-item">Pricing</a></li>
         <li><a href="specials.html" class="nav-list-item">Specials</a></li>
+        <li><a href="signup.html" class="nav-list-item">Sign Up</a></li>
     </ul>
     <!--Navigation Bar End-->
     <section id="LoadModal"></section>
@@ -162,54 +163,11 @@
     </div>
     <!--Slider End-->
 
-    <div class="contact-modal" id="ContactModal">
-        <div class="close-bar">
-            <a onclick="closeForm()" class="closebtn">
-                <h2><i class="fa fa-times" aria-hidden="true"></i></h2>
-            </a>
-        </div>
-        <div class="conact-form">
-
-            <div class="form-container">
-                <form method="post" data-d="frmDone" action="http://api.tackter.io/api/UserForms" id="tactusFrm" onsubmit="return postForm(this,event)">
-                    <input name="Token" value="cb543080-45c1-4ebb-84de-db0effd22068" type="hidden">
-                    <!--<input name="Token" value="21d51a19-2d8f-4a47-8b78-e9b8df69a4c8" type="hidden">-->
-
-
-                    <input placeholder="Name and Surname" name="Fullname" id="form-name" required="required" type="text">
-                    <input placeholder="Your Email Address" name="Email" id="form-email" required="required" type="email"><br>
-                    <input placeholder="Your Phone Number (Optional)" name="Phone" id="form-phone" type="text"><br>
-                    <input name="Subject" placeholder="Email Subject" required="required" id="email" type="text"><br>
-                    <textarea placeholder="Message" name="Message" id="form-message" required="required"></textarea><br>
-
-                    <span class="span" style="color:transparent;font-size:0px"><a href="http://tackter.io"> Powered by Tackter.io</a></span>
-                    <button type="submit" id="submitbtn" onclick="playLoad()">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!--Start Contact-->
-    <section id="CONTACT">
-        <div class="container text-center">
-            <div class="contact-head">
-                <h1>Contact Us</h1>
-                <hr style="width: 20%; height: 2px; background-color: #3f63e8;">
-                <br>
-            </div>
-            <div class="contact-body">
-
-                <h3><a href="mailto:creatorworkshops@gmail.com">creatorworkshops@gmail.com</a></h3><br>
-                <h3>083 884 8736</h3><br>
-
-                <button onclick="openForm('')" class="btn btn-default course-btn" type="button">Send Us an Email</button>
-            </div>
-        </div>
-    </section>
-
     <footer class="foot">
         <div class="foot-contact">
             <h4>creatorworkshops@gmail.com</h4>
             <h4>083 884 8736</h4>
+            <a href="signup.html" class="btn btn-info course-btn" role="button">Sign Up</a>
         </div>
         <div class="foot-copy">
             <h4>&copy; <span id="YEAR"></span> by <span class="copy-name">Creator Workshops</span></h4><span class="text-right">Developed by <a href="http://sitego.co.za" target="_blank">Joshua Britz</span>

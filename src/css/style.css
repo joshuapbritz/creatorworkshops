@@ -475,7 +475,7 @@ body{
 
     display: none;
 
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -641,8 +641,6 @@ body{
     padding-top: 5%;
 
     padding-bottom: 5%;
-
-
 
 }
 
@@ -1112,6 +1110,8 @@ body{
 
     background-color: #fff;
 
+    clear: both;
+
 }
 
 
@@ -1368,7 +1368,7 @@ body{
 
     margin-top: 4%;
 
-    border-radius: 100px;
+    border-radius: auto;
 
 }
 
@@ -1622,7 +1622,7 @@ body{
 
     float: left;
 
-    height: auto
+    height: auto;
 
 }
 
@@ -1636,6 +1636,7 @@ body{
 
     clear: both;
 
+    background-color: white;
 }
 
 
@@ -1667,6 +1668,8 @@ body{
     margin: 3%;
 
     border: solid 3px #203654;
+
+    background-color: white;
 
 }
 
