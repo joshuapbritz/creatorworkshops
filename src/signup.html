@@ -47,13 +47,33 @@
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2345931415630386');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2345931415630386&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+  
 </head>
 
 
 
 <body>
-
+    <script>
+        fbq('track', 'ViewSignup');
+      </script>
+      
     <!--Navigation Bar Start-->
     <div class="nav">
         <div class="nav-contact">
@@ -77,7 +97,7 @@
         <li><a href="material.html" class="nav-list-item">What We Teach</a></li>
         <li><a href="quote.html" class="nav-list-item">Pricing</a></li>
         <li><a href="specials.html" class="nav-list-item">Specials</a></li>
-        <li><a href="signup.html" class="nav-list-item">Sign Up</a></li>
+        <li><a href="https://mailchi.mp/1bc533367c84/standard_land" class="nav-list-item">Sign Up</a></li>
     </ul>
     <!--Navigation Bar End-->
     <section id="LoadModal"></section>
@@ -149,7 +169,8 @@
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FULL_NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='KID_GRADE';ftypes[6]='text';fnames[2]='LEVEL';ftypes[2]='dropdown';fnames[5]='LOCATION';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FULL_NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='KID_GRADE';ftypes[6]='text';fnames[2]='LEVEL';ftypes[2]='dropdown';fnames[5]='LOCATION';ftypes[5]='dropdown';fbq('track', 'CompleteRegistration');}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    
 <!--End mc_embed_signup-->
 
     <footer class="foot">
