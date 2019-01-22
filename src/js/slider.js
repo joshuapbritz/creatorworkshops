@@ -1,50 +1,42 @@
-
 function fancySlide() {
+  var slideOne = $('#slide-one'),
+    slideTwo = $('#slide-two'),
+    slideThree = $('#slide-three');
+  // slideFour = $("#slide-four"),
+  // slideFive = $("#slide-five"),
 
-    var slideOne = $("#slide-one"),
-        slideTwo = $("#slide-two"),
-        slideThree = $("#slide-three");
-        // slideFour = $("#slide-four"),
-        // slideFive = $("#slide-five"),
-        
+  var slides = [slideOne, slideTwo, slideThree];
 
-    var slides = [slideOne, slideTwo, slideThree];
+  var textTrans = $('#slideContainer').attr('transform-text');
+  var dataSpeed = $('#slideContainer').attr('data-speed');
+  dataSpeed = dataSpeed * 1000;
 
-    var textTrans = $("#slideContainer").attr("transform-text");
-    var dataSpeed = $("#slideContainer").attr("data-speed");
-    dataSpeed = dataSpeed * 1000;
+  if (textTrans == 'upper') {
+    $('.text').addClass('text-uppercase');
+  } else if (textTrans == 'lower') {
+    $('.text').addClass('text-lowercase');
+  }
 
-    if (textTrans == "upper") {
-        $(".text").addClass("text-uppercase");
-    }else if (textTrans == "lower"){
-        $(".text").addClass("text-lowercase");
+  var i = 1;
+  slides[0].show();
+
+  setInterval(function() {
+    $('.slide').hide();
+    $('.text').hide();
+    slides[i].fadeIn(function() {
+      $('.text').fadeIn(1200);
+    });
+
+    if (i == 2) {
+      i = 0;
+    } else {
+      i++;
     }
+  }, dataSpeed);
 
-    var i = 1;
-    slides[0].show();
+  console.log(dataSpeed);
+}
 
-    setInterval(function () {
-
-        $(".slide").hide();
-        $(".text").hide();
-        slides[i].fadeIn(function(){
-            $(".text").fadeIn(1200);
-        });
-        
-        if (i == 2) {
-            i = 0;
-        } else {
-            i++
-        }
-
-    }, dataSpeed)
-
-    console.log(dataSpeed)
-};
-
-
-$(document).ready(function(){
-    fancySlide();
-})
-
-
+$(document).ready(function() {
+  fancySlide();
+});
