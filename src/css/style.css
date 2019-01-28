@@ -360,12 +360,19 @@ body {
 
   display: none;
 
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 900px) {
   .hero-desc {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-desc {
+    width: 95%;
+    font-size: 18px;
   }
 }
 
