@@ -9,13 +9,13 @@ body {
 
   height: auto;
 
-  padding-left:10%;
+  padding-left:30%;
 
-  width: 100%;
+  width: 80%;
 
   padding: 20px;
 
-  justify-content: center;
+  padding-left: 20%;
 }
 
 .nav-contact span {
@@ -25,7 +25,7 @@ body {
 
   margin-right: 20px;
 
-  justify-content: center;
+  padding-left: 20%;
 }
 
 @media screen and (max-width: 900px) {
@@ -39,13 +39,11 @@ body {
 
   height: auto;
 
-  padding-left: 10%;
+  padding-left: 30%;
 
   background-color: #fff;
 
   align-content: center;
-
-  justify-content: center;
 }
 
 .navigate-logo {
@@ -53,7 +51,7 @@ body {
 
   height: auto;
 
-  padding-left: 10%;
+  padding-left: 30%;
 
   padding-right: 10%;
 
@@ -64,24 +62,21 @@ body {
   align-items: center;
 
   float: left;
-
-  justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
   .navigate-logo {
     width: 100%;
     height: auto;
-    padding-left: 10%;
+    padding-left: 30%;
     padding-right: 10%;
-    justify-content: center; 
   }
 }
 
 .nav-img {
   height: auto;
 
-  width: 100%;
+  width: 80%;
 
   align-self: center;
 
@@ -90,16 +85,13 @@ body {
   text-align: center;
 
   padding-left: 20%;
-
-  justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
   .nav-img {
     height: auto;
-    width: 100%;
+    width: 80%;
     text-align: right;
-    justify-content: center;
   }
 }
 
@@ -113,8 +105,6 @@ body {
   padding: 10%;
 
   text-align: right;
-
-  justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -124,8 +114,6 @@ body {
     text-align: right;
 
     border-top: solid 3px #203654;
-
-    justify-content: center;
   }
 }
 
@@ -141,8 +129,6 @@ body {
   display: none;
 
   text-align: center;
-
-  justify-content: center;
 }
 
 .navigate-list li {
@@ -151,8 +137,6 @@ body {
   border-top: solid 1px #ddd;
 
   display: block;
-
-  justify-content: center;
 }
 
 /*Sets the styling for the individual list item*/
@@ -459,7 +443,7 @@ body {
 
   width: 70%;
 
-  padding-left: 10%;
+  padding-left: 30%;
 }
 
 
