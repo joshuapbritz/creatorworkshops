@@ -9,7 +9,6 @@ body {
 
   height: auto;
 
-<<<<<<< HEAD
   padding-left:10%;
 
   width: 100%;
@@ -17,22 +16,16 @@ body {
   padding: 20px;
 
   justify-content: center;
-=======
-  width: 100%;
-
-  padding: 20px;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 }
 
 .nav-contact span {
   margin-left: 20px;
 
+  display: block;
+
   margin-right: 20px;
-<<<<<<< HEAD
 
   justify-content: center;
-=======
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 }
 
 @media screen and (max-width: 900px) {
@@ -46,7 +39,6 @@ body {
 
   height: auto;
 
-<<<<<<< HEAD
   padding-left: 10%;
 
   background-color: #fff;
@@ -54,23 +46,16 @@ body {
   align-content: center;
 
   justify-content: center;
-=======
-  background-color: #fff;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 }
 
 .navigate-logo {
-  width: 40%;
+  width: 100%;
 
   height: auto;
 
-<<<<<<< HEAD
   padding-left: 10%;
 
   padding-right: 10%;
-=======
-  padding: 20px;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 
   /*float: left;*/
 
@@ -86,20 +71,16 @@ body {
 @media screen and (max-width: 900px) {
   .navigate-logo {
     width: 100%;
-<<<<<<< HEAD
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center; 
-=======
->>>>>>> parent of 2ce9b69... most recent - some risky changes
   }
 }
 
 .nav-img {
   height: auto;
 
-<<<<<<< HEAD
   width: 100%;
 
   align-self: center;
@@ -120,19 +101,16 @@ body {
     text-align: right;
     justify-content: center;
   }
-=======
-  width: 50px;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 }
 
 .navigate-content {
-  float: left;
+  float: center;
 
-  width: 60%;
+  width: 100%;
 
   height: auto;
 
-  padding: 20px;
+  padding: 10%;
 
   text-align: right;
 
@@ -143,15 +121,11 @@ body {
   .navigate-content {
     width: 100%;
 
-<<<<<<< HEAD
     text-align: right;
 
     border-top: solid 3px #203654;
 
     justify-content: center;
-=======
-    text-align: center;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
   }
 }
 
@@ -218,7 +192,6 @@ body {
 }
 
 /*Sets the styling for the hamburger menu*/
-
 .hamburger {
   color: #203654;
 
@@ -237,6 +210,14 @@ body {
   -moz-transition: ease-in 0.2s;
 
   transition: ease-in 0.2s;
+
+  align-items: right;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburger {
+    align-items: right;
+  }
 }
 
 .hamburger:hover {
@@ -254,7 +235,7 @@ body {
 /*Start What We Teach*/
 
 .teach {
-  border-top: solid 3px #203654;
+  background-color:   white;
 }
 
 .teach-logo {
@@ -267,6 +248,12 @@ body {
   border-bottom: solid 1px #203654;
 }
 
+@media screen and (max-width: 900px) {
+  .teach-logo{
+    font-size: 50px;
+    text-align: left;
+  }
+}
 .teach-logo h1 {
   color: #203654;
 
@@ -419,7 +406,7 @@ body {
 
   height: 100%;
 
-  background-color: rgba(63, 99, 232, 0.6);
+  background-color: rgba(35, 70, 197, 0.6);
 
   display: flex;
 
@@ -446,10 +433,10 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .hero-desc {
     width: 95%;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -470,14 +457,12 @@ body {
 .nav {
   height: auto;
 
-<<<<<<< HEAD
   width: 70%;
 
   padding-left: 10%;
-=======
-  width: 100%;
->>>>>>> parent of 2ce9b69... most recent - some risky changes
 }
+
+
 
 /*End Hero*/
 
@@ -981,12 +966,34 @@ loc-one {
   background-color: #fff;
 }
 
+.teacher-hero{
+  width: 100%;
+
+  height: 100px;
+
+  background-color: #203654;
+
+  display: flex;
+
+  align-items: center;
+
+  padding-top: 10px;
+
+  justify-content: center;
+
+  text-align: bottom;
+
+  font-size: 25px;
+
+  color: white;
+}
+
 .teacher-head {
   width: 100%;
 
   height: auto;
 
-  padding: 3%;
+  padding: 5%;
 
   text-align: center;
 }
