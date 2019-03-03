@@ -35,31 +35,36 @@ body {
 }
 
 .navigate-logo {
-  width: 40%;
+  width: 30%;
+
+  margin-left: 5%;
 
   height: auto;
-
-  padding: 20px;
 
   /*float: left;*/
 
   display: flex;
 
-  align-items: center;
-
   float: left;
+
+  font-size: 250%;
+
+  align-content: right;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .navigate-logo {
-    width: 100%;
+    margin: 0;
+    width: 60%;
+    font-size: 160%;
   }
 }
 
 .nav-img {
   height: auto;
-
-  width: 50px;
+  vertical-align: bottom;
+  width: 100%;
+  padding: 5%;
 }
 
 .navigate-content {
@@ -69,16 +74,16 @@ body {
 
   height: auto;
 
-  padding: 20px;
+  padding: 5%;
 
   text-align: right;
 }
 
 @media screen and (max-width: 900px) {
   .navigate-content {
-    width: 100%;
-
-    text-align: center;
+    width: 40%;
+    float: right;
+    text-align: right;
   }
 }
 
@@ -145,7 +150,7 @@ body {
 .hamburger {
   color: #203654;
 
-  font-size: 40px;
+  font-size: 200%;
 
   font-weight: 500;
 
@@ -160,6 +165,14 @@ body {
   -moz-transition: ease-in 0.2s;
 
   transition: ease-in 0.2s;
+
+  align-self: auto;
+}
+
+@media screen and (max-width: 400px){
+  .hamburger{
+    font-size: 150%;
+  }
 }
 
 .hamburger:hover {
@@ -181,13 +194,43 @@ body {
 }
 
 .teach-logo {
+  font-size: 50pt;
+
   width: 100%;
 
-  text-align: right;
+  text-align: left;
 
   height: auto;
 
   border-bottom: solid 1px #203654;
+}
+
+@media screen and (max-width: 900px){
+  .teach-logo {
+     margin: 5%;
+     font-size: 35pt;
+  }
+}
+
+.teacher-logo {
+  margin-left: 5%;
+
+  font-size: 50pt;
+  
+  width: 100%;
+
+  text-align: left;
+
+  height: auto;
+
+  border-bottom: solid 1px #203654;
+}
+
+@media screen and (max-width: 900px){
+  .teacher-logo {
+    font-size: 35pt;
+    margin: 5%;
+  }
 }
 
 .teach-logo h1 {
@@ -311,6 +354,10 @@ body {
   border-bottom: solid 1px #203654;
 
   font-size: 20px;
+
+  text-align: justify;
+
+  text-justify: distribute;
 }
 
 /*End feedback*/
