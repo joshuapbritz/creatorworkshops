@@ -9,23 +9,15 @@ body {
 
   height: auto;
 
-  padding-left:30%;
-
-  width: 80%;
+  width: 100%;
 
   padding: 20px;
-
-  padding-left: 20%;
 }
 
 .nav-contact span {
   margin-left: 20px;
 
-  display: block;
-
   margin-right: 20px;
-
-  padding-left: 20%;
 }
 
 @media screen and (max-width: 900px) {
@@ -39,21 +31,15 @@ body {
 
   height: auto;
 
-  padding-left: 30%;
-
   background-color: #fff;
-
-  align-content: center;
 }
 
 .navigate-logo {
-  width: 100%;
+  width: 40%;
 
   height: auto;
 
-  padding-left: 30%;
-
-  padding-right: 10%;
+  padding: 20px;
 
   /*float: left;*/
 
@@ -67,42 +53,23 @@ body {
 @media screen and (max-width: 900px) {
   .navigate-logo {
     width: 100%;
-    height: auto;
-    padding-left: 30%;
-    padding-right: 10%;
   }
 }
 
 .nav-img {
   height: auto;
 
-  width: 80%;
-
-  align-self: center;
-
-  align-items: center;
-
-  text-align: center;
-
-  padding-left: 20%;
-}
-
-@media screen and (max-width: 900px) {
-  .nav-img {
-    height: auto;
-    width: 80%;
-    text-align: right;
-  }
+  width: 50px;
 }
 
 .navigate-content {
-  float: center;
+  float: left;
 
-  width: 100%;
+  width: 60%;
 
   height: auto;
 
-  padding: 10%;
+  padding: 20px;
 
   text-align: right;
 }
@@ -111,9 +78,7 @@ body {
   .navigate-content {
     width: 100%;
 
-    text-align: right;
-
-    border-top: solid 3px #203654;
+    text-align: center;
   }
 }
 
@@ -176,6 +141,7 @@ body {
 }
 
 /*Sets the styling for the hamburger menu*/
+
 .hamburger {
   color: #203654;
 
@@ -194,14 +160,6 @@ body {
   -moz-transition: ease-in 0.2s;
 
   transition: ease-in 0.2s;
-
-  align-items: right;
-}
-
-@media screen and (max-width: 900px) {
-  .hamburger {
-    align-items: right;
-  }
 }
 
 .hamburger:hover {
@@ -219,7 +177,7 @@ body {
 /*Start What We Teach*/
 
 .teach {
-  background-color:   white;
+  border-top: solid 3px #203654;
 }
 
 .teach-logo {
@@ -232,12 +190,6 @@ body {
   border-bottom: solid 1px #203654;
 }
 
-@media screen and (max-width: 900px) {
-  .teach-logo{
-    font-size: 50px;
-    text-align: left;
-  }
-}
 .teach-logo h1 {
   color: #203654;
 
@@ -390,7 +342,7 @@ body {
 
   height: 100%;
 
-  background-color: rgba(35, 70, 197, 0.6);
+  background-color: rgba(63, 99, 232, 0.6);
 
   display: flex;
 
@@ -417,10 +369,10 @@ body {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
   .hero-desc {
     width: 95%;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -441,12 +393,8 @@ body {
 .nav {
   height: auto;
 
-  width: 70%;
-
-  padding-left: 30%;
+  width: 100%;
 }
-
-
 
 /*End Hero*/
 
@@ -950,34 +898,12 @@ loc-one {
   background-color: #fff;
 }
 
-.teacher-hero{
-  width: 100%;
-
-  height: 100px;
-
-  background-color: #203654;
-
-  display: flex;
-
-  align-items: center;
-
-  padding-top: 10px;
-
-  justify-content: center;
-
-  text-align: bottom;
-
-  font-size: 25px;
-
-  color: white;
-}
-
 .teacher-head {
   width: 100%;
 
   height: auto;
 
-  padding: 5%;
+  padding: 3%;
 
   text-align: center;
 }
