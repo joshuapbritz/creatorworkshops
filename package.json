@@ -1,0 +1,20 @@
+{
+  "name": "creatorworkshops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cd src && browser-sync start --s --f 'css/*.css' 'js/*.js' '*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuapbritz/creatorworkshops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuapbritz/creatorworkshops/issues"
+  },
+  "homepage": "https://github.com/joshuapbritz/creatorworkshops#readme"
+}

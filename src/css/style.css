@@ -169,8 +169,8 @@ body {
   align-self: auto;
 }
 
-@media screen and (max-width: 400px){
-  .hamburger{
+@media screen and (max-width: 400px) {
+  .hamburger {
     font-size: 150%;
   }
 }
@@ -205,10 +205,10 @@ body {
   border-bottom: solid 1px #203654;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .teach-logo {
-     margin: 5%;
-     font-size: 35pt;
+    margin: 5%;
+    font-size: 35pt;
   }
 }
 
@@ -216,7 +216,7 @@ body {
   margin-left: 5%;
 
   font-size: 50pt;
-  
+
   width: 100%;
 
   text-align: left;
@@ -226,7 +226,7 @@ body {
   border-bottom: solid 1px #203654;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .teacher-logo {
     font-size: 35pt;
     margin: 5%;
@@ -512,7 +512,7 @@ body {
 
   transition: ease-in-out 0.2s;
 }
-
+/* 
 .course-item {
   height: auto;
 
@@ -527,7 +527,7 @@ body {
   .course-item {
     width: 100%;
   }
-}
+} */
 
 .holiday-item {
   height: auto;
@@ -1298,4 +1298,58 @@ loc-one {
   height: auto;
 
   padding: 5%;
+}
+
+.course-wrapper {
+  width: 90%;
+  height: auto;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.course-wrapper .course-item {
+  float: left;
+  width: calc(50% - 40px);
+  margin: 20px;
+  border: solid 1px #dbdbdb;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .course-wrapper .course-item {
+    float: none;
+    width: calc(100% - 40px);
+  }
+}
+
+.course-wrapper .course-item .item-location {
+  margin-top: 20px;
+}
+
+.course-wrapper .course-item .item-datetime {
+  margin-bottom: 20px;
+}
+
+.course-wrapper:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.course-wrapper.loading {
+  min-height: 50vh;
+}
+
+.course-wrapper .loader-wrapper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-wrapper .loader-wrapper .loader {
+  font-size: 45px;
+  text-align: center;
+  color: #3f63e8;
 }

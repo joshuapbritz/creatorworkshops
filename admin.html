@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .form-wrapper {
+        max-width: 550px;
+        width: 90%;
+        margin: auto;
+      }
+
+      .form-wrapper .form-control {
+        width: 100%;
+        padding: 15px;
+      }
+
+      .form-wrapper .form-control.center {
+        text-align: center;
+      }
+
+      .form-wrapper .form-control input {
+        width: 100%;
+        height: 45px;
+        background-color: #ffffff;
+        border: solid 1px #dbdbdd;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 0 15px;
+      }
+
+      .form-wrapper .form-control button {
+        display: inline-block;
+        height: 45px;
+        padding: 0 20px;
+        background-color: rgb(9, 187, 113);
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        box-shadow: 0 6px 12px rgba(33, 33, 33, 0.45);
+        border-radius: 45px;
+        cursor: pointer;
+        transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
+      }
+
+      .form-wrapper .form-control button:active {
+        box-shadow: 0 0 0 rgba(33, 33, 33, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <form id="courseform">
+        <div class="form-control">
+          <input type="text" name="title" placeholder="Title" />
+        </div>
+        <div class="form-control">
+          <input type="text" name="description" placeholder="Description" />
+        </div>
+        <div class="form-control">
+          <input type="text" name="map_name" placeholder="Location Name" />
+        </div>
+        <div class="form-control">
+          <input type="text" name="iframe" placeholder="Google map iframe" />
+        </div>
+        <div class="form-control">
+          <input
+            type="text"
+            name="time"
+            placeholder="Time of course (from - to)"
+          />
+        </div>
+        <div class="form-control">
+          <input
+            type="date"
+            name="date_from"
+            placeholder="Date the course starts on"
+          />
+        </div>
+        <div class="form-control">
+          <input
+            type="date"
+            name="date_to"
+            placeholder="Date the course ends on"
+          />
+        </div>
+        <div class="form-control">
+          <input
+            type="number"
+            name="price_per_day"
+            placeholder="Price per day"
+          />
+        </div>
+        <div class="form-control center">
+          <button id="button">SAVE</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: 'AIzaSyCkG0bS-AOh3j6EjZ7Vual0IFCG8nN0qmA',
+        authDomain: 'creatorworkshops-61b79.firebaseapp.com',
+        databaseURL: 'https://creatorworkshops-61b79.firebaseio.com',
+        projectId: 'creatorworkshops-61b79',
+        storageBucket: 'creatorworkshops-61b79.appspot.com',
+        messagingSenderId: '253296753518',
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
