@@ -35,7 +35,7 @@ body {
 }
 
 .navigate-logo {
-  width: 30%;
+  width: 15%;
 
   margin-left: 5%;
 
@@ -47,7 +47,7 @@ body {
 
   float: left;
 
-  font-size: 250%;
+  font-size: 200%;
 
   align-content: right;
 }
@@ -55,8 +55,8 @@ body {
 @media screen and (max-width: 600px) {
   .navigate-logo {
     margin: 0;
-    width: 60%;
-    font-size: 160%;
+    width: 30%;
+    font-size: 40%;
   }
 }
 
@@ -68,18 +68,20 @@ body {
 }
 
 .navigate-content {
-  float: left;
+  float: right;
 
-  width: 60%;
+  width: 20%;
 
   height: auto;
 
-  padding: 5%;
+  padding: 2%;
+
+  padding-right: 5%;
 
   text-align: right;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .navigate-content {
     width: 40%;
     float: right;
@@ -150,7 +152,7 @@ body {
 .hamburger {
   color: #203654;
 
-  font-size: 200%;
+  font-size: 100%;
 
   font-weight: 500;
 
@@ -250,7 +252,7 @@ body {
 
   text-align: left;
 
-  padding: 20px;
+  padding: 40px;
 
   color: #203654;
 }
@@ -512,7 +514,7 @@ body {
 
   transition: ease-in-out 0.2s;
 }
-/* 
+
 .course-item {
   height: auto;
 
@@ -527,7 +529,7 @@ body {
   .course-item {
     width: 100%;
   }
-} */
+} 
 
 .holiday-item {
   height: auto;
