@@ -1,11 +1,11 @@
 function fancySlide() {
   var slideOne = $('#slide-one'),
     slideTwo = $('#slide-two'),
-    slideThree = $('#slide-three');
-  // slideFour = $("#slide-four"),
-  // slideFive = $("#slide-five"),
+    slideThree = $('#slide-three'),
+    slideFour = $("#slide-four"),
+    slideFive = $("#slide-five");
 
-  var slides = [slideOne, slideTwo, slideThree];
+  var slides = [slideOne, slideTwo, slideThree, slideFour, slideFive];
 
   var textTrans = $('#slideContainer').attr('transform-text');
   var dataSpeed = $('#slideContainer').attr('data-speed');
@@ -27,7 +27,7 @@ function fancySlide() {
       $('.text').fadeIn(1200);
     });
 
-    if (i == 2) {
+    if (i == 4) {
       i = 0;
     } else {
       i++;

@@ -196,7 +196,7 @@ body {
 }
 
 .teach-logo {
-  font-size: 50pt;
+  font-size: 20pt;
 
   width: 100%;
 
@@ -204,7 +204,23 @@ body {
 
   height: auto;
 
-  border-bottom: solid 1px #203654;
+  padding-left: 5%;
+
+  border-top: solid 2px #203654;
+}
+
+.about-logo {
+  font-size: 20pt;
+
+  width: 100%;
+
+  text-align: left;
+
+  height: auto;
+
+  padding-left: 5%;
+
+  border-top: solid 2px #203654;
 }
 
 @media screen and (max-width: 900px) {
@@ -238,11 +254,13 @@ body {
 .teach-logo h1 {
   color: #203654;
 
-  font-size: 90px;
+  font-size: 35px;
 
   text-align: left;
 
   padding: 30px;
+  
+  padding-bottom: 5px;
 }
 
 .teach-head {
@@ -252,7 +270,9 @@ body {
 
   text-align: left;
 
-  padding: 40px;
+  padding: 2%;
+
+  padding-bottom: 1%;
 
   color: #203654;
 }
@@ -262,13 +282,27 @@ body {
 
   height: auto;
 
-  padding: 30px;
-
-  color: #666;
+  padding: 10px;
 
   font-size: 20px;
 
-  border-bottom: solid 1px #203654;
+  color: #666;
+}
+
+.about-body {
+  width: 100%;
+
+  height: auto;
+
+  padding: 10px;
+
+  font-size: 20px;
+
+  color: #666;
+}
+
+.teach-body h2 {
+  font-size: 25px;
 }
 
 /*End What We Teach*/
@@ -282,18 +316,44 @@ body {
 
 /*Start Specials*/
 
+.price-container {
+  width: 100%;
+
+  height: auto;
+
+  text-align: left;
+
+  padding: 10px;
+
+  padding-left: 70px;
+
+  color: #203654;
+
+  font-size: 16px;
+}
+
+.specials-head {
+  width: 100%;
+
+  height: auto;
+
+  text-align: left;
+
+  padding: 10px;
+
+  color: #203654;
+}
+
 .specials-body {
   width: 100%;
 
   height: auto;
 
-  padding: 30px;
+  padding: 10px;
 
   font-size: 20px;
 
   color: #666;
-
-  border-bottom: solid 1px #203654;
 }
 
 .specials-logo h1 {
@@ -384,6 +444,22 @@ body {
   clear: both;
 }
 
+.about-head {
+  width: 100%;
+
+  height: auto;
+
+  background-color: #fff;
+
+  background-image: url('../img/hero.webp');
+
+  background-position: center top;
+
+  background-size: cover;
+
+  clear: both;
+}
+
 /*Semi transparent overlay for the image*/
 
 .hero-overlay {
@@ -454,7 +530,27 @@ body {
 
   margin: auto;
 
-  width: 40%;
+  width: 20%;
+
+  border: solid 2px #203654;
+
+  color: #3f63e8;
+
+  background-color: #fff;
+
+  -webkit-transition: ease-in-out 0.2s;
+
+  -moz-transition: ease-in-out 0.2s;
+
+  transition: ease-in-out 0.2s;
+}
+
+.price-btn {
+  border-radius: 100px;
+
+  margin: auto;
+
+  width: 30%;
 
   border: solid 2px #203654;
 
@@ -919,16 +1015,16 @@ loc-one {
   padding: 3%;
 }
 
-#PRICING {
+#TIMES-INTRO {
   width: 100%;
 
   height: auto;
 
-  padding: 3%;
+  padding: 2%;
 
   clear: both;
 
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #PRICING h1 {
@@ -948,13 +1044,13 @@ loc-one {
 }
 
 .teacher-head {
-  width: 100%;
+  width: 30%;
 
   height: auto;
 
   padding: 3%;
 
-  text-align: center;
+  text-align: left;
 }
 
 .teacher-head span {
@@ -1016,7 +1112,7 @@ loc-one {
 
   border: solid 1px #203654;
 
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 
   margin-top: 4%;
 
@@ -1235,6 +1331,22 @@ loc-one {
   clear: both;
 }
 
+#PRICING {
+  width: 100%;
+
+  height: auto;
+
+  background-color: #dddddd;
+
+  padding: 2%;
+
+  padding-left: 5%;
+
+  padding-bottom: 5%;
+
+  clear: both;
+}
+
 /* #loc-one {
   float: left;
   height: auto;
@@ -1290,6 +1402,7 @@ loc-one {
 
 #weekly-body {
   font-size: 200px;
+  padding: 5%;
 }
 
 #LOCATION-INFO {
