@@ -26,8 +26,8 @@ function fancySlide() {
     slides[i].fadeIn(function() {
       $('.text').fadeIn(1200);
     });
-
-    if (i == 4) {
+    
+    if (i == 5) {
       i = 0;
     } else {
       i++;
