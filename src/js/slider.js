@@ -4,8 +4,9 @@ function fancySlide() {
     slideThree = $('#slide-three'),
     slideFour = $("#slide-four"),
     slideFive = $("#slide-five");
+    slideSix = $("#slide-six");
 
-  var slides = [slideOne, slideTwo, slideThree, slideFour, slideFive];
+  var slides = [slideOne, slideTwo, slideThree, slideFour, slideFive, slideSix];
 
   var textTrans = $('#slideContainer').attr('transform-text');
   var dataSpeed = $('#slideContainer').attr('data-speed');
