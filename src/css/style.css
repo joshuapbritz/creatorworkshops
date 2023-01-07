@@ -1424,10 +1424,10 @@ loc-one {
 
 .course-wrapper .course-item {
   float: left;
-  width: calc(50% - 40px);
-  margin: 20px;
+  width: calc(30% - 10px);
+  margin: 10px;
   border: solid 1px #dbdbdb;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 800px) {
