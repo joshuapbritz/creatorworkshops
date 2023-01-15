@@ -8,27 +8,19 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WSGQ5DS');</script>
-    <!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WSGQ5DS');</script>
+            <!-- End Google Tag Manager -->
 
     <!--Meta Tags-->
-    <meta name="description" content="Entertain your kids while preparing them for the modern age by sending them 
-                                        to our LEGO Engineering workshops this holiday.">
+    <meta name="description" content="Educational Lego Workshops for Children of All Ages">
     <meta name="author" content="Joshua Britz">
-    <meta name="keywords" content="lego workshop, lego education workshop, lego workshop for schools, 
-                                    lego mechanics workshop, lego classroom, lego education, creator workshops, 
-                                    evan cantrell, lego robotics, lego club, lego engineering, lego club south africa
-                                    lego mechanics, mechanical engineering for kids">
+    <meta name="keywords" content="lego workshop, lego education workshop, lego workshop for schools, lego mechanics workshop, lego classroom, lego education, creator workshops, evan cantrell">
 
-
-    <title>Creator Workshops | Weekly Classes</title>
+    <title>Creator Workshops | Weekly Workshops</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script src="jquery/jquery3.1.1.js"></script>
@@ -49,7 +41,8 @@
     <!--Animate-->
     <link href="css/animate.css" rel="stylesheet">
 
-    <script src="js/client.min.js"></script>
+    <link rel="stylesheet" href="css/location-grid.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,9 +54,9 @@
 
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSGQ5DS" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSGQ5DS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!--Navigation Bar Start-->
     <div class="nav">
@@ -72,7 +65,7 @@
             <span><strong>083 884 8736</strong></span>
         </div>
         <nav class="navigate">
-            <div class="navigate-logo"><a href="index.html"><img src="img/logosm.webp" class="nav-img"></a>
+            <div class="navigate-logo"><a href = "index.html"><img src="img/logosm.webp" class="nav-img"></a>
             </div>
             <div class="navigate-content">
                 <h1><a class="hamburger" onclick="toggleMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a></h1>
@@ -90,6 +83,8 @@
     <section id="LoadModal"></section>
     <!--Start Hero-->
     <!--End Hero-->
+
+    <!--Weekly course Desc-->
     <section id="WEEKLY">
         <div class="teach-head">
             <h1 class="text-uppercase"> <i class="fa fa-calendar" aria-hidden="true"></i> Weekly Classes</h1>
@@ -98,46 +93,188 @@
 
     <div class="container">
 
-    <div class="teach-head">
+    
+               
+       
+            <br>
+    </div>     
+    <!--Times-->
+   
+    <section id="TIMES" style="overflow:auto;">
+        <div class="teach-head">
 
-        <h2><i class="fa fa-child" aria-hidden="true"></i>   Junior Mechanics (Ages 4-7)</h2>
-
-    </div>
-
-        <div class="teach-body">
-
-            <p>Creator Workshops offers special classes catering to small groups of younger children. The younger children
-                work from the LEGO Duplo <a href="https://www.handsontech.co.za/sets.html#!/LEGO®-Education-Early-Simple-Machines-Set/p/101059086/category=27750028"
-                target="_blank">Early Simple Machines Set</a>. The main focus of these classes is helping young students to 
-                develop early fine motor skills and hand-eye coordination, in addition to introducing them to fundamental concepts
-                of mechanics. These essential talents are taught through enjoyable, easy models that will keep children entertained while
-                they learn.
-
-            </p>
+            <h2><i class="fa fa-child" aria-hidden="true"></i>   Junior Mechanics (Ages 4-6)</h2>
+    
         </div>
     
-    <div class="teach-head">
+            <div class="teach-body">
+    
+                <p>Creator Workshops offers special classes catering to small groups of younger children. The younger children
+                    work from the LEGO Duplo <a href="https://www.handsontech.co.za/sets.html#!/LEGO®-Education-Early-Simple-Machines-Set/p/101059086/category=27750028"
+                    target="_blank">Early Simple Machines Set</a>. The main focus of these classes is helping young students to 
+                    develop early fine motor skills and hand-eye coordination, in addition to introducing them to fundamental concepts
+                    of mechanics. These essential talents are taught through enjoyable, easy models that will keep children entertained while
+                    they learn.
+    
+                </p>
+            </div>
+        
+        <table style="min-width:500px" id="pricetable" class="pricing-table">
+            <tbody>
+                <tr>
+                    <td>Address</td>
+                    <td>Day and Time</td>
+                    <td>Price per Term (4/year)</td>
+                </tr>
+                
+                <tr>
+                    <td>Venture Montessori, 51 Chrissie St, <strong>Brackenhurst </strong></td>
+                    <td><strong>Mondays</strong> - 13:15 - 14:15</td>
+                    <td><strong>R1 200</strong></td>
+                </tr> 
+                
+                <tr>
+                    <td>13 Ashley Avenue, <strong>Bryanston </strong></td>
+                    <td><strong>Mondays</strong> - 16:00 - 17:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
 
-        <h2><i class="fa fa-user" aria-hidden="true"></i>   Mechanics (Ages 7-16)</h2>
+                <tr>
+                    <td>25 Jean Avenue, <strong>alternating with</strong> 4 3rd Avenue, <strong>Bordeaux</strong></td>
+                    <td><strong>Tuesdays</strong> - 15:15 - 16:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
 
-    </div>
+                <tr>
+                    <td>TBA, <strong>Weltevredenpark </strong></td>
+                    <td><strong>Wednesdays</strong> - 15:00 - 16:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
 
-        <div class="teach-body">
-            <p>
-            
-            Creator Workshops’ primary teaching material is the curriculum developed by <a href="http://www.handsontech.co.za/"
-            target="_blank">Hands-on-Tech</a>. For more information about this curriculum, you can click on this
-            <a href="http://www.handsontech.co.za/technology-curricula.html" target="_blank">link</a>. It is CAPS–Applicable,
-            and is based off of LEGO Education’s Simple and Powered machines set (9686), which we provide
-            for the use of our students. The primary objective of this course is to accustom students to the fundamentals 
-            of engineering and problem-solving. Students who complete this course will be able to work with the 6 Simple Machines,
-            Mechanical Advantage, and Gear Ratios, to name a few. They will also be able to apply these concepts to real world problems. 
-            The Mechanics class is designed for students who wish to build a strong foundation in Mechanics and
-            Structural Design before proceeding to Robotics. It is ideal for older students with less prior experience
-            with Educational LEGO. 
+                <tr>
+                    <td>12 Celtis Crescent, Fourways Gardens Phase Two, <strong>Fourways </strong></td>
+                    <td><strong>Thursdays</strong> - 16:30 - 17:30</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
 
-            </p>
-        </div>             
+                <tr>
+                    <td>Christ Church <strong>Horison </strong></td>
+                    <td><strong>Fridays</strong> - 12:00 - 13:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>Gereformeerde Kerk, Meyerspark, <strong>Pretoria </strong></td>
+                    <td><strong>Fridays</strong> - 14:15 - 15:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <a href="signup.html" class="btn btn-info price-btn" role="button">Sign Up</a>
+        </div>
+        <div class="teach-head">
+
+            <h2><i class="fa fa-user" aria-hidden="true"></i>   Mechanics (Ages 7-16)</h2>
+    
+        </div>
+    
+            <div class="teach-body">
+                <p>
+                
+                Creator Workshops’ primary teaching material is the curriculum developed by <a href="http://www.handsontech.co.za/"
+                target="_blank">Hands-on-Tech</a>. For more information about this curriculum, you can click on this
+                <a href="http://www.handsontech.co.za/technology-curricula.html" target="_blank">link</a>. It is CAPS–Applicable,
+                and is based off of LEGO Education’s Simple and Powered machines set (9686), which we provide
+                for the use of our students. The primary objective of this course is to accustom students to the fundamentals 
+                of engineering and problem-solving. Students who complete this course will be able to work with the 6 Simple Machines,
+                Mechanical Advantage, and Gear Ratios, to name a few. They will also be able to apply these concepts to real world problems. 
+                The Mechanics class is designed for students who wish to build a strong foundation in Mechanics and
+                Structural Design before proceeding to Robotics. It is ideal for older students with less prior experience
+                with Educational LEGO. 
+    
+                </p>
+            </div>  
+        <table style="min-width:500px" id="pricetable" class="pricing-table">
+            <tbody>
+                <tr>
+                    <td>Address</td>
+                    <td>Day and Time</td>
+                    <td>Price per Term (4/year)</td>
+                </tr>
+                
+                <tr>
+                    <td>Venture Montessori, 51 Chrissie St, <strong>Brackenhurst </strong></td>
+                    <td><strong>Mondays</strong> - 14:15 - 15:15</td>
+                    <td><strong>R1 200</strong></td>
+                </tr> 
+                
+                <tr>
+                    <td>13 Ashley Avenue, <strong>Bryanston </strong></td>
+                    <td><strong>Mondays</strong> - 16:00 - 17:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>25 Jean Avenue, <strong>alternating with</strong> 4 3rd Avenue, <strong>Bordeaux</strong></td>
+                    <td><strong>Tuesdays</strong> - 15:15 - 16:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>33a Meyer Street, <strong>Oaklands</strong></td>
+                    <td><strong>Tuesdays</strong> - 15:00 - 16:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>TBA, <strong>Weltevredenpark </strong></td>
+                    <td><strong>Wednesdays</strong> - 15:00 - 16:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>1 Apiesdoring Street, <strong>Sundowner </strong></td>
+                    <td><strong>Wednesdays</strong> - 15:15 - 16:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>128 Lourens Drive, Beaulieu, <strong>Midrand </strong></td>
+                    <td><strong>Thursdays</strong> - 11:00 - 12:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>27 Alec Road, Sunnyrock, <strong>Edenvale </strong></td>
+                    <td><strong>Thursdays</strong> - 14:30 - 15:30</td>
+                    <td><strong>R1 200</strong></td>
+                </tr>
+
+                <tr>
+                    <td>12 Celtis Crescent, Fourways Gardens Phase Two, <strong>Fourways </strong></td>
+                    <td><strong>Thursdays</strong> - 16:30 - 17:30</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>Christ Church <strong>Horison </strong></td>
+                    <td><strong>Fridays</strong> - 14:15 - 15:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>Gereformeerde Kerk, Meyerspark, <strong>Pretoria </strong></td>
+                    <td><strong>Fridays</strong> - 14:15 - 15:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <a href="signup.html" class="btn btn-info price-btn" role="button">Sign Up</a>
+        </div>
         <div class="teach-head">
 
             <h2><i class="fa fa-user" aria-hidden="true"></i>   Robotics (Ages 13-18)</h2>
@@ -155,23 +292,37 @@
                     problem-solving, as well as experience with teamwork and working independently under pressure. Students
                     who excel in this competition may even win the chance to compete internationally. In 2022 one of our teams 
                     won the nationals and had the opportunity to represent South Africa in Germany! 
-    
                 </p>
             </div> 
-            <br>
-    </div>     
+        <table style="min-width:500px" id="pricetable" class="pricing-table">
+            <tbody>
+                <tr>
+                    <td>Address</td>
+                    <td>Day and Time</td>
+                    <td>Price per Term (4/year)</td>
+                </tr>
 
-    <!--Weekly Course Table-->
-    <main id="courses" class="course-wrapper loading">
-        <!--Location-->
-        <div class="loader-wrapper">
-            <div class="loader">Loading workshops...</div>
+                <tr>
+                    <td>33a Meyer Street, <strong>Oaklands</strong></td>
+                    <td><strong>Tuesdays</strong> - 15:00 - 16:00</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+                <tr>
+                    <td>Christ Church <strong>Horison </strong></td>
+                    <td><strong>Fridays</strong> - 14:15 - 15:15</td>
+                    <td><strong>R1 000</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <a href="signup.html" class="btn btn-info price-btn" role="button">Sign Up</a>
         </div>
-    </main>
-    <!--End Location-->
-   <!--End Weekly Course Table-->
-    
-<!-- Extras -->
+    </section>
+
+   <!-- Extras -->
 
 <section id="TEACH" class="teach">
 
@@ -271,110 +422,75 @@
     </section>
    
     <!-- End Specials -->
-
-    
-
-    <!--In Between Notice
-    <section id="WEEKLY">
-        <div class="container">
-            <div class="teach-head">
-                <h1 class="text-uppercase">Holiday Courses</h1>
-            </div>
-            <div class="teach-body">
-                <p>Creator Workshops offers week long workshops during public school holidays. More information about these
-                    courses will be available closer to the time. For photos of previous workshops, see our <a href="https://www.facebook.com/pg/CreatorWorkshops/photos/?tab=album&album_id=222399814910039"
-                        target="_blank">Facebook page.</a>
+    <!--Slider Start-->
+    <div class="slider-container text-center" id="slideContainer" data-speed="12">
+        <div class="slider-item-1 slide" id="slide-one">
+            <div class="overlay">
+                <p class="text"> "A phenomenal teacher and programme! I can't recommend Creator Workshops enough. 
+                    If engineering, robotics, programming and creating is in your child's DNA then this is for you." 
+                <br>
+                <br>
+                Tricia Cullen
                 </p>
             </div>
         </div>
-    </section>
-    End In Between Notice-->
-
-   <!-- <section id="FLYERS">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 holiday-item">
-                    <h2>Beginner Course Info</h2>
-                    <a href="doc/begin.pdf" class="btn btn-default holiday-btn" id="begin">Download PDF</a>
-                </div>
-                <div class="col-md-4 holiday-item">
-                    <h2>Advanced Course Info</h2>
-                    <a href="doc/advance.pdf" class="btn btn-default holiday-btn" id="advance">Download PDF</a>
-                </div>
+        <div class="slider-item-2 slide" id="slide-two">
+            <div class="overlay">
+                <p class="text"> “My sons can't wait for their classes and always return excited and ready to share what they 
+                    have learnt. This is saying something for a class teaching maths, science and engineering.” 
+                <br>
+                <br>
+                Michael Rogers
+                </p>            </div>
+        </div>
+        <div class="slider-item-3 slide" id="slide-three">
+            <div class="overlay">
+                <p class="text"> “While basic computer classes are offered at most schools, this prepares them in no way for the skills
+                    they need in order to keep up with the daily progress in technology, mechanics and computer engineering. 
+                    Creator Workshops exposed my daughter to principles of engineering and technology in a way that is not 
+                    just fun, but I believe vitally important in today's generation." 
+               <br>
+               <br>
+               Lara Reeves
+               </p>        
             </div>
         </div>
-    </section> -->
-
-<!--Slider Start-->
-<div class="slider-container text-center" id="slideContainer" data-speed="12">
-    <div class="slider-item-1 slide" id="slide-one">
-        <div class="overlay">
-            <p class="text"> "A phenomenal teacher and programme! I can't recommend Creator Workshops enough. 
-                If engineering, robotics, programming and creating is in your child's DNA then this is for you." 
-            <br>
-            <br>
-            Tricia Cullen
-            </p>
+        <div class="slider-item-4 slide" id="slide-four">
+            <div class="overlay">
+                <p class="text"> “Creator Workshops has been teaching my son important concepts regarding physics, 
+                    especially in the field of mechanics. Lego engineering makes this learning process fun and interesting. 
+                    Lego has really helped to shape his mind and experience of the world around him.”
+                <br>
+                <br>
+                Rosa Scheepers
+                </p>            
+            </div>
+        </div>
+        <div class="slider-item-5 slide" id="slide-five">
+            <div class="overlay">
+                <p class="text"> “Lego Robotics has been an exciting and highly rewarding experience for my son. He has been 
+                    challenged to think outside the box in the many projects he has been asked to do in class, and has also 
+                    learnt to work with other students in a team. I am very grateful to Evan and his team for patiently and 
+                    gently instilling in our children a love for creativity under the creator via robotics engineering.”
+                <br>
+                <br>
+                Mulenga Katabua
+                </p>            
+            </div>
+        </div>
+        <div class="slider-item-6 slide" id="slide-six">
+            <div class="overlay">
+                <p class="text"> "The children at my school look forward to the lessons every week. They often come back from a workshop saying 'that was fun but I had to really think.' 
+                    The facilitator is very patient and makes sure each child gets one on one attention.
+                    Venture Montessori gives a 5 out of 5"
+                <br>
+                <br>
+                Mary Gladman De Witt
+                </p>            
+            </div>
         </div>
     </div>
-    <div class="slider-item-2 slide" id="slide-two">
-        <div class="overlay">
-            <p class="text"> “My sons can't wait for their classes and always return excited and ready to share what they 
-                have learnt. This is saying something for a class teaching maths, science and engineering.” 
-            <br>
-            <br>
-            Michael Rogers
-            </p>            </div>
-    </div>
-    <div class="slider-item-3 slide" id="slide-three">
-        <div class="overlay">
-            <p class="text"> “While basic computer classes are offered at most schools, this prepares them in no way for the skills
-                 they need in order to keep up with the daily progress in technology, mechanics and computer engineering. 
-                 Creator Workshops exposed my daughter to principles of engineering and technology in a way that is not 
-                 just fun, but I believe vitally important in today's generation." 
-            <br>
-            <br>
-            Lara Reeves
-            </p>            
-        </div>
-    </div>
-    <div class="slider-item-4 slide" id="slide-four">
-        <div class="overlay">
-            <p class="text"> “Creator Workshops has been teaching my son important concepts regarding physics, 
-                especially in the field of mechanics. Lego engineering makes this learning process fun and interesting. 
-                Lego has really helped to shape his mind and experience of the world around him.”
-            <br>
-            <br>
-            Rosa Scheepers
-            </p>            
-        </div>
-    </div>
-    <div class="slider-item-5 slide" id="slide-five">
-        <div class="overlay">
-            <p class="text"> “Lego Robotics has been an exciting and highly rewarding experience for my son. He has been 
-                challenged to think outside the box in the many projects he has been asked to do in class, and has also 
-                learnt to work with other students in a team. I am very grateful to Evan and his team for patiently and 
-                gently instilling in our children a love for creativity under the creator via robotics engineering.”
-            <br>
-            <br>
-            Mulenga Katabua
-            </p>            
-        </div>
-    </div>
-    <div class="slider-item-6 slide" id="slide-six">
-        <div class="overlay">
-            <p class="text"> "The children at my school look forward to the lessons every week. They often come back from a workshop saying 'that was fun but I had to really think.' 
-                The facilitator is very patient and makes sure each child gets one on one attention.
-                Venture Montessori gives a 5 out of 5"
-            <br>
-            <br>
-            Mary Gladman De Witt
-            </p>            
-        </div>
-    </div>
-</div>
-<!--Slider End-->
-
+    <!--Slider End-->
     <footer class="foot">
         <div class="foot-contact">
             <h4>creatorworkshops@gmail.com</h4>
@@ -382,24 +498,10 @@
             <a href="signup.html" class="btn btn-info course-btn" role="button">Sign Up</a>
         </div>
         <div class="foot-copy">
-            <h4>&copy; <span id="YEAR"></span> by <span class="copy-name">Creator Workshops</span></h4><span
-                class="text-right">Developed by <a href="https://joshbritz.co/" target="_blank">Joshua Britz</span>
+            <h4>&copy; <span id="YEAR"></span> by <span class="copy-name">Creator Workshops</span></h4><span class="text-right">Developed
+                by <a href="https://joshbritz.co/" target="_blank">Joshua Britz</span>
         </div>
     </footer>
-
-    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyCkG0bS-AOh3j6EjZ7Vual0IFCG8nN0qmA",
-            authDomain: "creatorworkshops-61b79.firebaseapp.com",
-            databaseURL: "https://creatorworkshops-61b79.firebaseio.com",
-            projectId: "creatorworkshops-61b79",
-            storageBucket: "creatorworkshops-61b79.appspot.com",
-            messagingSenderId: "253296753518"
-        };
-        firebase.initializeApp(config);
-    </script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -419,7 +521,6 @@
     <script src="js/site.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/portfolio.js"></script>
-    <script src="js/weekly.js"></script>
 
 </body>
 
